@@ -1,0 +1,152 @@
+﻿/* Strat Tab Saurabh Content  */
+ul.tabs
+{
+	width: 100%;
+/*  background: #DDDDE3; */
+}
+      
+ul.tabs li
+{
+    font: normal 19px Verdana;
+}
+        
+ul.tabs li a
+{
+    outline:none;
+}
+  
+ul.tabs li a:hover
+{
+    text-decoration: underline;
+    color: #000;
+}
+        
+ul.tabs li.selected a
+{
+    position: relative;
+    top: 0px;
+    font-weight:bold;
+    background: #fff;
+    border: 1px solid #AAA;
+    border-bottom: 1px solid #FFF;
+    color: #000;
+}
+                
+ul.tabs li.selected a:hover, ul.tabs li.selected a:hover
+{
+    text-decoration: none;
+}
+/* Strat Tab Saurabh Content  */
+
+/*===== OPEN ===*/
+div.tabcontents
+{
+    border: 1px solid #CCC; padding: 30px;
+    border-top-color:#AAA;
+    background-color:#FFF;
+    border-radius: 0 0 2px 2px;
+}
+
+#content div#section div span a.first {
+	margin-left: 0;
+}
+
+#content div#section div#figure {
+	margin-left: 51px;
+	width: 612px;
+}
+
+#content div#featured ul li.first {
+	margin-left: 0;
+}
+
+#content div b.first {
+	display: block;
+    padding-top: 33px;
+}
+
+#content div#section div#figure img, 
+#content div div img, #content div#featured ul li img {
+	border: 3px solid #fff;
+}
+
+#content div#featured ul li p a {
+	color: #525252;
+}
+
+#content div#section span.background {
+	background: url(../images/bg-headliner-bottom-shadow.html) no-repeat center;
+	top: 328px;
+	display: block;
+	height: 37px;
+	position: relative;
+	width: 950px;
+}
+
+#content div#featured {
+	background: url(../images/bg-featured.html) repeat-x top center;
+	height: 895px;
+	padding: 0px 0;
+	width: 100%;
+}
+
+#content div#featured ul {
+	color: #525252;
+	list-style: none;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+	width: 950px;
+}
+
+
+#content div#featured ul li {
+	float: left;
+	margin-left: 53px;
+	/*width: 281px; */
+}
+
+
+#content div#featured ul li a.link {
+	background: url(../images/sprites-buttons.html) no-repeat 0 -166px;
+	color: #FDFDFB;
+	display: block;
+	height: 43px;
+	font-family: 'CarterOneRegular';
+	font-size: 16px;
+	line-height: 43px;
+	margin-top: 25px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #216B20;
+	width: 281px;
+}
+
+#content div#featured ul li p {
+	line-height: 21px;
+    margin-top: 5px;
+    padding-bottom: 5px;
+	text-align: center;
+	text-shadow: 1px 1px 0 #e8e6e7;
+}
+
+/*====== CLOSE=======*/
+
+
+#content div {
+	margin: 0 auto;
+	padding: 0 0 40px;
+	width: 950px;
+}
+
+#content div div, #content div.section div.figure {
+	/*background: url(../images/bg-image-higlight.jpg) no-repeat;
+	float: center;
+	margin-left: 45px;*/
+	padding: 0 0 0;
+	position: relative;
+    width: 1014px;
+}
+
+/*   EXTRA*/
+
